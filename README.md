@@ -1,2 +1,4 @@
-Build status [![Build Status](https://travis-ci.org/denis-ivanov/MystemSharp.svg?branch=master)](https://travis-ci.org/denis-ivanov/MystemSharp)
+# MystemSharp
+
+Travis build status [![Build Status](https://travis-ci.org/denis-ivanov/MystemSharp.svg?branch=master&style=flat-square)](https://travis-ci.org/denis-ivanov/MystemSharp)
 
