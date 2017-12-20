@@ -119,11 +119,8 @@ namespace MystemSharp
         public int FlexLength => MystemLemmaFlexLen(_pointer);
 
         public int RuleId => MystemLemmaRuleId(_pointer);
-        
-        public override string ToString()
-        {
-            return Text;
-        }
+
+        public override string ToString() => Text;
 
         internal static unsafe List<Grammar> PointerToGrammars(byte* pointer)
         {

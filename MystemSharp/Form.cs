@@ -59,5 +59,7 @@ namespace MystemSharp
                 return result;
             }
         }
+
+        public override string ToString() => Text;
     }
 }

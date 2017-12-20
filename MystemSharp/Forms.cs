@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 
 namespace MystemSharp
 {
-    public class Forms : IEnumerable<Form>
+    public class Forms : IReadOnlyList<Form>
     {
         [DllImport("mystem_c_binding", CharSet = CharSet.Unicode)]
         private static extern void MystemDeleteForms(IntPtr forms);

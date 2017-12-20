@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 
 namespace MystemSharp
 {
-    public class Analyses : IEnumerable<Lemma>
+    public class Analyses : IReadOnlyList<Lemma>
     {
         [DllImport("mystem_c_binding", CharSet = CharSet.Unicode)]
         private static extern IntPtr MystemAnalyze(string word, int len);

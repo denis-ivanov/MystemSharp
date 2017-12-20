@@ -89,5 +89,18 @@ namespace MystemSharp.UnitTests
             // Assert
             Assert.DoesNotThrow(() => { var _ = lemma.FlexLength; });
         }
+
+        [Test]
+        public void RuleId_NativeCall_DoesNotThrowException()
+        {
+            // Arranga
+            var analyses = new Analyses("слово");
+            
+            // Act
+            var lemma = analyses[0];
+
+            // Assert
+            Assert.DoesNotThrow(() => { var _ = lemma.RuleId; });
+        }
     }
 }
