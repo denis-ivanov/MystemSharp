@@ -6,7 +6,7 @@
   <ItemGroup>
     <PackageReference Include="MystemBinding-Linux" Version="1.0.0" />
     <PackageReference Include="nunit" Version="3.9.0" />
-    <PackageReference Include="NUnit3TestAdapter" Version="3.9.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.2" />
   </ItemGroup>
   <ItemGroup>
